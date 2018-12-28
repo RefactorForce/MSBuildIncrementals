@@ -1,6 +1,12 @@
-# MSBump
-MSBump is a MSBuild 15 task that bumps the version of a Visual Studio 2017 project.
+# MSBuild Incrementals
+Tasks for MSBuild v15 that aid with the automatic incrementation of project properties.
 Currently only tested on `.csproj` files.
+
+## Origins
+Based on the MSBump project.
+
+## Plans
+The plan is for the project to eventually host a number of MSBuild tasks that allow the by-name and/or by-regex targeting of project properties for automatic incrementation with various configurable options. 
 
 ## Purpose
 
